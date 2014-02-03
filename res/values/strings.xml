@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">TryOuts</string>
+    
+    <!-- Actions -->
+    
     <string name="action_settings">Settings</string>
+    <string name="action_toast">gib mir ein Toast</string>
+    
+    <!-- Feste Texte -->
+    
     <string name="hello_world">Hello Tryout</string>
-
+    <string name="toast_text">Tadar Toast Tadar!</string>
+    
 </resources>
