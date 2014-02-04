@@ -33,8 +33,12 @@ public class MainActivity extends Activity {
 			Toast.makeText(getApplicationContext(), R.string.toast_text, Toast.LENGTH_SHORT).show();
 		    break;
 
+		case R.id.action_settings:
+			System.err.println("Settings nicht möglich");			
+		    break;
+		    
 		default:
-			System.out.println("ItemId: " + item.getItemId());
+			System.out.println("Master ItemId: " + item.getItemId());
 		
 			break;
 		}
