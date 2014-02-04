@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TryOuts</string>
+    <string name="app_name">TryOuts - new Master</string>
     
     <!-- Actions -->
     
@@ -12,5 +12,6 @@
     
     <string name="hello_world">Hello Tryout</string>
     <string name="toast_text">Tadar Toast Tadar!</string>
+    <string name="Setting_text">Setting -&gt;Zurück drücken</string>
     
 </resources>
