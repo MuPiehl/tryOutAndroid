@@ -2,17 +2,35 @@ package org.mpi.example.tryouts;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
+	
+	DrawingView dv ;   
+	private Paint       mPaint;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+	    mPaint = new Paint();
+	    
+	    dv = new DrawingView(this, mPaint);
+	    setContentView(dv);
+	
+	    mPaint.setAntiAlias(true);
+	    mPaint.setDither(true);
+	    mPaint.setColor(Color.GREEN);
+	    mPaint.setStyle(Paint.Style.STROKE);
+	    mPaint.setStrokeJoin(Paint.Join.ROUND);
+	    mPaint.setStrokeCap(Paint.Cap.ROUND);
+	    mPaint.setStrokeWidth(12);  
 		
 	
 	}
@@ -48,9 +66,13 @@ public class MainActivity extends Activity {
 	
 		return false;
 	}
+<<<<<<< HEAD
+}
+=======
 	
 	
 	
 		  }
 
 
+>>>>>>> master
