@@ -13,5 +13,6 @@
     <string name="hello_world">Hello Tryout</string>
     <string name="toast_text">Tadar Toast Tadar!</string>
     <string name="Setting_text">Setting -&gt;Zurück drücken</string>
+    <string name="back_string">zurück</string>
     
 </resources>

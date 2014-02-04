@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_centerVertical="true"
-        android:text="Button" />
+        android:onClick="onClickBackButton"
+        android:text="@string/back_string" />
 
 </RelativeLayout>
