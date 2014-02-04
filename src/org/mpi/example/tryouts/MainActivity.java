@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 		    break;
 
 		default:
-			System.out.println("ItemId: " + item.getItemId());
+			System.out.println("Master ItemId: " + item.getItemId());
 		
 			break;
 		}
@@ -60,4 +60,13 @@ public class MainActivity extends Activity {
 	
 		return false;
 	}
+<<<<<<< HEAD
 }
+=======
+	
+	
+	
+		  }
+
+
+>>>>>>> master
