@@ -1,7 +1,7 @@
 package org.mpi.example.tryouts;
 
 public class exapleCode {
-	
+	/*
 	public class FingerPaintActivity extends Activity implements ColorPickerDialog.OnColorChangedListener {    
 
 		MyView mv;
@@ -441,7 +441,7 @@ public class exapleCode {
 		    setTitle("Pick a Color");
 		}
 		}
-	
+	*/
 	
 
 }
