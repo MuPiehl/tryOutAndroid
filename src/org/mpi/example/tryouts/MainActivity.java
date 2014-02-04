@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 	}
 	
 	
-	public class MainActivity extends Activity {
+ /*	public class MainActivity extends Activity {
 
 		DrawingView dv ;   
 		private Paint       mPaint;
@@ -166,5 +166,5 @@ public class MainActivity extends Activity {
 		        }  
 		        }
 		  }
-
+*/
 }
