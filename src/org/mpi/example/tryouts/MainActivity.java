@@ -1,6 +1,7 @@
 package org.mpi.example.tryouts;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,7 +35,8 @@ public class MainActivity extends Activity {
 		    break;
 
 		case R.id.action_settings:
-			System.err.println("Settings nicht möglich");			
+			Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+	        startActivity(intent);
 		    break;
 		    
 		default:
